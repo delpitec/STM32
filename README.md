@@ -1,7 +1,7 @@
 # STM32
 Arquivos utilizados no tutorial disponível no YouTube sobre STM32 em português.
 
-Link do vídeo:
+Link da playlist:
 https://www.youtube.com/watch?v=tsOSFThnECQ&list=PLjOLyDltrTdkxpbxDOn8ZQim6NtuNO5G1
 
 _________________________________________________________________________________________________________________________________________
