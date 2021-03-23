@@ -9,6 +9,9 @@
    #define Output_D6_PIN(state) HAL_GPIO_WritePin(LCD_D6_GPIO_Port, LCD_D6_Pin, state)
    #define Output_D7_PIN(state) HAL_GPIO_WritePin(LDC_D7_GPIO_Port, LDC_D7_Pin, state)
 
+void lcd_escreve_dado(char dado);  		// escrever um caractere individualmente
+void lcd_escreve_instrucao(char instr); 	// escreve um dado de controle (clear display, pos. cursor, etc)
+
 void lcd_escreve_dado(char dado)
 {
 	Output_RS_PIN(1);
