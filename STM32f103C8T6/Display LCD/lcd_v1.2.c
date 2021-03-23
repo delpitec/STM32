@@ -1,5 +1,5 @@
    #include "main.h"
-   #include "lcd_v1.1.h"
+   #include "lcd_v1.2.h"
 
    // Configura os pinos de saída
    #define Output_RS_PIN(state) HAL_GPIO_WritePin(LCD_RS_GPIO_Port, LCD_RS_Pin, state)
