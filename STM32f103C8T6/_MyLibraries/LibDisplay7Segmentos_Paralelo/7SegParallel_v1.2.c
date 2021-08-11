@@ -508,12 +508,12 @@ SegDoDisplay ConverteDezenaParaSegmento(int8_t DadoQueSeraConvertido){
     case 'm':
     case 'M':
       RetornarSegmentoDoDisplay.SegmentoA = 1;
-      RetornarSegmentoDoDisplay.SegmentoB = 0;
+      RetornarSegmentoDoDisplay.SegmentoB = 1;
       RetornarSegmentoDoDisplay.SegmentoC = 1;
       RetornarSegmentoDoDisplay.SegmentoD = 0;
       RetornarSegmentoDoDisplay.SegmentoE = 1;
-      RetornarSegmentoDoDisplay.SegmentoF = 0;
-      RetornarSegmentoDoDisplay.SegmentoG = 1;
+      RetornarSegmentoDoDisplay.SegmentoF = 1;
+      RetornarSegmentoDoDisplay.SegmentoG = 0;
     break;
 
     case 'n':
